@@ -1,607 +1,814 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Magpie - Blog, Magazine Html Template</title>
-    
-    <!-- favicon -->
-    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+<!doctype html>
+<html class="no-js" lang="en">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Genesis - Multipurpose eCommerce HTML Template</title>
+        <meta name="robots" content="noindex, follow" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
-</head>
-<body>
+        <!-- All CSS is here
+            ============================================ -->
 
-    <!-- preloader area start -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
-        </div>
-    </div>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <!-- Icon Font CSS -->
+        <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/vendor/linearicons.css">
+        <link rel="stylesheet" href="assets/css/vendor/themify-icons.css">
+        <!-- Others CSS -->
+        <link rel="stylesheet" href="assets/css/plugins/owl-carousel.css">
+        <link rel="stylesheet" href="assets/css/plugins/slick.css">
+        <link rel="stylesheet" href="assets/css/plugins/animate.css">
+        <link rel="stylesheet" href="assets/css/plugins/jquery.mb.ytplayer.min.css">
+        <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/plugins/jarallax.css">
+        <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- search popup end-->
-    <div class="body-overlay" id="body-overlay"></div>
+    </head>
 
-    <!-- header start -->
-    <div class="navbar-area">
-        <!-- topbar end-->
-        <div class="topbar-area">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-sm-7 align-self-center">
-                        <div class="topbar-menu text-md-left text-center">
-                            <ul class="align-self-center">
-                                <li><img src="assets/img/icon/1.png" alt="img"> Dhaka <span>29°C </span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-5 mt-2 mt-md-0 text-md-right text-center">
-                        <div class="topbar-social">
-                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i>  April 7, 2021</div>
-                            <ul class="social-area social-area-2">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- topbar end-->
+    <body>
 
-        <!-- adbar end-->
-        <div class="adbar-area d-none d-lg-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-5 align-self-center">
-                        <div class="logo text-md-left text-center">
-                            <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7 text-md-right text-center">
-                        <a href="#" class="adbar-right">
-                            <img src="assets/img/add/1.png" alt="img">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- adbar end-->
-
-        <!-- navbar start -->
-        <nav class="navbar bg-gradient navbar-expand-lg">
-            <div class="container nav-container">
-                <div class="responsive-mobile-menu">
-                    <div class="logo d-lg-none d-block">
-                        <a class="main-logo" href="index.html"><img src="assets/img/logo-4.png" alt="img"></a>
-                    </div>
-                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-left"></span>
-                        <span class="icon-right"></span>
-                    </button>
-                </div>
-                <div class="nav-right-part nav-right-part-mobile">
-                    <a class="nav-search" href="#"><i class="fa fa-search"></i></a>
-                </div>
-                <div class="collapse navbar-collapse" id="nextpage_main_menu">
-                    <ul class="navbar-nav menu-open">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                                <li><a href="index-4.html">Home 04</a></li>
-                                <li><a href="index-5.html">Home 05</a></li>
-                                <li><a href="index-6.html">Home 06</a></li>
-                                <li><a href="index-7.html">Home 07</a></li>
-                                <li><a href="index-8.html">Home 08</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Category</a>
-                            <ul class="sub-menu">
-                                <li><a href="cat-tech.html">Tech</a></li>
-                                <li><a href="cat-lifestyle.html">Lifestyle</a></li>
-                                <li><a href="cat-fashion.html">Fashion</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="author.html">Author</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-right-part nav-right-part-desktop">
-                    <ul>
-                        <li><a class="nav-search" href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><img src="assets/img/icon/2.png" alt="img"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- navbar end -->
-
-    <!--page-title area-->
-    <section class="page-title-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-inner">
-                        <h5 class="page-title">Blog</h5>
-                        <ul class="page-list">
-                            <li><a href="index.html">Home</a></li>
-                            <li>Blog</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--page-title area end--> 
-
-    <!-- start blog page -->
-    <div class="main-blog-area pd-top-60 pd-bottom-60">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-12">
-                    <div class="single-blog-inner">
-                        <div class="thumb">
-                            <img src="assets/img/blog/1.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>January 20, 2019</span>
-                            <h5><a href="single-blog.html">Best domain name for student ever</a></h5>
-                            <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor incididunt do eiusmod ut labore </p>
-                            <a class="btn btn-base" href="single-blog.html">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="single-blog-inner">
-                        <div class="thumb">
-                            <img src="assets/img/blog/2.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <span>January 20, 2019</span>
-                            <h5><a href="single-blog.html">Saas Lending Solution for Loans company</a></h5>
-                            <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor do eiusmod incididunt ut labore </p>
-                            <a class="btn btn-base" href="single-blog.html">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="single-blog-inner">
-                        <div class="thumb">
-                            <img src="assets/img/blog/3.png" alt="img">
-                            <a class="video-play-btn play-btn-medium play-btn-white" href="#" data-effect="mfp-zoom-in"><i class="fa fa-play"></i></a>
-                        </div>
-                        <div class="details">
-                            <span>January 20, 2019</span>
-                            <h5><a href="single-blog.html">Custom Platform for an Audit Insurance</a></h5>
-                            <p>Lorem ipsum dolor sit amet elit ed onsectetur adipiscing  do eiusmod tempor do eiusmod incididunt ut labore </p>
-                            <a class="btn btn-base" href="single-blog.html">READ MORE</a>
-                        </div>
-                    </div>
-                    <nav class="td-page-navigation mb-5 mb-lg-0">
-                        <ul class="pagination">
-                            <li class="pagination-arrow"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a class="active" href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li class="pagination-arrow"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <!-- sidebar -->
-                <div class="col-lg-4 col-12">
-                    <div class="td-sidebar mt-5 mt-lg-0">
-                        <div class="widget widget_search">
-                            <form class="search-form">
-                                <div class="form-group">
-                                    <input type="text" placeholder="Search">
+        <div class="main-wrapper">
+            <header class="header-area">
+                <div class="header-large-device">                   
+                    <div class="header-bottom">
+                        <div class="container">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-xl-2 col-lg-2">
+                                    <div class="logo logo-res-lg">
+                                        <a href="index.html">
+                                            <img src="assets/images/logo/logo.png" alt="logo">
+                                        </a>
+                                    </div>
+                                </div>                           
+                                <div class="col-lg-6">
+                                    <div class="main-menu menu-lh-1 main-menu-padding-1 menu-text-white main-menu-padding1">
+                                        <nav>
+                                            <ul>
+                                                <li><a class="active" href="index.html">Home</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="home-02.html">Home-02</a></li>
+                                                        <li><a href="home-03.html">Home-03</a></li>         
+                                                        <li><a href="home-04.html">Home-04</a></li>   
+                                                        <li><a href="home-05.html">Home-05</a></li>   
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Pages</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="faq.html">FAQ</a></li>
+                                                        <li><a href="404.html">404 Page</a></li>
+                                                        <li><a href="contact.html">Contact Page</a></li>
+                                                        <li><a href="coming-soon.html">Comming Soon</a></li>
+                                                        <li><a href="empty-cart.html">Empty Cart</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="shop-fullwide.html">Shop</a>
+                                                    <ul class="mega-menu-style-2 mega-menu-width2 menu-negative-mrg3">
+                                                        <li class="mega-menu-sub-width20"><a class="menu-title" href="#">Shop Layout</a>
+                                                            <ul>
+                                                                <li><a href="shop-fullwide.html">Shop Fullwidth</a></li>
+                                                                <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                                <li><a href="shop-3-col.html">Shop 03 Columns</a></li>
+                                                                <li><a href="shop-list-style.html">Shop List Style</a></li>
+                                                                <li><a href="order-tracking.html">Order Tracking</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-menu-sub-width22"><a class="menu-title" href="#">Product Layout</a>
+                                                            <ul>
+                                                                <li><a href="product-details.html">Product Details</a></li>
+                                                                <li><a href="product-details-group.html">Grouped</a></li>
+                                                                <li><a href="product-details-sticky.html">Sticky Info</a></li>
+                                                                <li><a href="product-details-video.html">Video</a></li>
+                                                                <li><a href="product-details-affiliate.html">Affiliate</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-menu-sub-width20"><a class="menu-title" href="#">Shop Pages</a>
+                                                            <ul>
+                                                                <li><a href="my-account.html">My Account</a></li>
+                                                                <li><a href="checkout.html">Check Out</a></li>
+                                                                <li><a href="cart.html">Shopping Cart</a></li>
+                                                                <li><a href="wishlist.html">Wishlist</a></li>                                                               
+                                                                <li><a href="login-register.html">login / register</a></li>
+                                                            </ul>
+                                                        </li>                                                       
+                                                    </ul>
+                                                </li>
+                                                <li><a href="blog.html">Blog</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="blog-layout-02.html">Blog Layout</a></li>
+                                                        <li><a href="blog.html">Blog Page</a></li>
+                                                        <li><a href="blog-no-sidebar.html">Blog No sidebar</a></li>
+                                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                        <li><a href="blog-details.html">Blog Details</a></li>                                                        
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
-                                <button class="submit-btn" type="submit"><i class="fa fa-search"></i></button>
+                                <div class="col-lg-4 d-flex justify-content-end">
+                                    <div class="header-right-wrap header-right-flex">
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="login-register.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="wishlist.html"><i class="fa fa-heart-o"></i>
+                                                <span><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+                                                <span>0</span>
+                                            </a>
+                                        </div>                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-small-device bg-main">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="mobile-logo mobile-logo-width">
+                                    <a href="index.html">
+                                        <img alt="" src="assets/images/logo/logo.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="header-right-wrap header-right-flex">
+                                    <div class="same-style same-style-mrg-dec">
+                                        <a href="login-register.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i>
+                                            <span><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a class="cart-active" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>0</span>
+                                        </a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a class="mobile-menu-button-active" href="#"><i class="fa fa-bars"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </header>                                      
+            <!-- mini cart start -->
+            <div class="sidebar-cart-active">
+                <div class="sidebar-cart-all">
+                    <a class="cart-close" href="#"><i class=" ti-close "></i></a>
+                    <div class="cart-content">
+                        <h3>Shopping Cart</h3>
+                        <ul>
+                            <li class="single-product-cart">
+                                <div class="cart-img">
+                                    <a href="#"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                </div>
+                                <div class="cart-title">
+                                    <h4><a href="#">Awesome Mobile</a></h4>
+                                    <span> 1 × $49.00	</span>
+                                </div>
+                                <div class="cart-delete">
+                                    <a href="#">×</a>
+                                </div>
+                            </li>
+                            <li class="single-product-cart">
+                                <div class="cart-img">
+                                    <a href="#"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                </div>
+                                <div class="cart-title">
+                                    <h4><a href="#">Nice Headphones</a></h4>
+                                    <span> 1 × $49.00	</span>
+                                </div>
+                                <div class="cart-delete">
+                                    <a href="#">×</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cart-total">
+                            <h4>Subtotal: <span>$170.00</span></h4>
+                        </div>
+                        <div class="cart-checkout-btn">
+                            <a class="btn-hover cart-btn-style" href="cart.html">view cart</a>
+                            <a class="no-mrg btn-hover cart-btn-style" href="checkout.html">checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile menu start -->
+            <div class="mobile-menu-active clickalbe-sidebar-wrapper-style-1">
+                <div class="clickalbe-sidebar-wrap">
+                    <a class="sidebar-close"><i class=" ti-close "></i></a>
+                    <div class="mobile-menu-content-area sidebar-content-100-percent">
+                        <div class="mobile-search">
+                            <form class="search-form" action="#">
+                                <input type="text" placeholder="Search entire store…">
+                                <button class="button-search"><i class=" ti-search "></i></button>
                             </form>
-                        </div>                  
-                        <div class="widget widget-recent-post">                            
-                            <h4 class="widget-title">Recent Post</h4>
-                            <ul>
-                                <li>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="assets/img/post/1.png" alt="blog">
+                        </div>
+                        <div class="clickable-mainmenu-wrap clickable-mainmenu-style1">
+                            <nav>
+                                <ul>
+                                    <li class="has-sub-menu"><a href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="home-02.html">Home-02</a></li>
+                                            <li><a href="home-03.html">Home-03</a></li>       
+                                            <li><a href="home-04.html">Home-04</a></li>   
+                                            <li><a href="home-05.html">Home-05</a></li>   
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">Pages</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact Page</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="coming-soon.html">Comming Soon</a></li>
+                                            <li><a href="empty-cart.html">Empty Cart</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">shop</a>
+                                        <ul class="sub-menu-2">
+                                            <li class="has-sub-menu"><a href="#">Shop Layout</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="shop-fullwide.html">Shop Fullwidth</a></li>
+                                                    <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                    <li><a href="shop-3-col.html">Shop 03 Columns</a></li>
+                                                    <li><a href="shop-list-style.html">Shop List Style</a></li>
+                                                    <li><a href="order-tracking.html">Order Tracking</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-sub-menu"><a href="#">Product Layout</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="product-details.html">Single 01</a></li>
+                                                    <li><a href="product-details-group.html">Grouped</a></li>
+                                                    <li><a href="product-details-sticky.html">Sticky Info</a></li>
+                                                    <li><a href="product-details-video.html">Video</a></li>
+                                                    <li><a href="product-details-affiliate.html">Affiliate</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-sub-menu"><a href="#">Shop Page</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="my-account.html">My Account</a></li>
+                                                    <li><a href="checkout.html">Check Out</a></li>
+                                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>                                                  
+                                                    <li><a href="login-register.html">login / register</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">Blog</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="blog-layout-02.html">Blog layout</a></li>
+                                            <li><a href="blog.html">Blog Page</a></li>
+                                            <li><a href="blog-no-sidebar.html">Blog No sidebar</a></li>
+                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>                      
+                        <div class="header-aside-content">                           
+                            <div class="social-icon-style-2 mb-25">
+                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                                <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="breadcrumb-area section-padding-1 breadcrumb-ptb-1">
+                <div class="container">
+                    <div class="breadcrumb-content text-left">
+                        <div class="breadcrumb-title">
+                            <p>Blog</p>
+                            <h2> Blog</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blog area start -->
+            <div class="blog-area pb-120">
+                <div class="container">
+                    <div class="row flex-row-reverse">
+                        <div class="col-lg-9">
+                            <div class="main-blog-wrap">
+                                <div class="blog-wrap-4">
+                                    <div class="blog-img-4">
+                                        <a href="blog-details.html">
+                                            <img src="assets/images/blog/blog-1.jpg" alt="blog">
+                                        </a>
+                                        <span>Life Style</span>
+                                    </div>
+                                    <div class="blog-content-4">
+                                        <h3><a href="#">Always Look On The Bright Side Of Life</a></h3>
+                                        <div class="blog-meta-4">
+                                            <ul>
+                                                <li>By <a href="#">by John Snow</a></li>
+                                                <li>-</li>
+                                                <li><a href="#">April 17,2019</a></li>
+                                            </ul>
                                         </div>
-                                        <div class="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">World’s most famous app developers</a></h5>
-                                            <div class="post-info"><a href="#">Blog</a><span>, 15 March, 2020</span></div>                             
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="assets/img/post/2.png" alt="blog">
-                                        </div>
-                                        <div class="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">Custom Platform for an Audit Insurance</a></h5>
-                                            <div class="post-info"><a href="#">Blog</a><span>, 15 March, 2020</span></div>                             
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="assets/img/post/3.png" alt="blog">
-                                        </div>
-                                        <div class="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">Famous app Developers and Designer</a></h5>
-                                            <div class="post-info"><a href="#">Blog</a><span>, 15 March, 2020</span></div>                             
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>    
-                        <div class="widget widget-category">
-                            <h4 class="widget-title">Category</h4>
-                            <a class="single-category-inner" style="background-image: url('assets/img/post/71.png')">
-                                <div class="row">
-                                    <div class="col-6 align-self-center">
-                                        <h6 class="cat-name">Sports</h6>
-                                    </div>
-                                    <div class="col-6 align-self-center text-right">
-                                        <span class="cat-count">5</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="single-category-inner" style="background-image: url('assets/img/post/72.png')">
-                                <div class="row">
-                                    <div class="col-6 align-self-center">
-                                        <h6 class="cat-name">Travel</h6>
-                                    </div>
-                                    <div class="col-6 align-self-center text-right">
-                                        <span class="cat-count">8</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="single-category-inner" style="background-image: url('assets/img/post/73.png')">
-                                <div class="row">
-                                    <div class="col-6 align-self-center">
-                                        <h6 class="cat-name">Technology</h6>
-                                    </div>
-                                    <div class="col-6 align-self-center text-right">
-                                        <span class="cat-count">9</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div> 
-                        <div class="widget">      
-                            <h4 class="widget-title">Top Stories</h4>  
-                            <div class="widget-tab-inner">
-                                <div class="nxp-tab-inner-2 nxp-tab-post">
-                                    <ul class="nav nav-tabs" id="enx1" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link active" id="enx1-tab-1" data-toggle="pill" href="#enx1-tabs-1" role="tab" aria-selected="true">
-                                                <i class="fa fa-clock-o"></i> All
+                                        <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>                                      
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html">
+                                                <div class="Button-Content">
+                                                    <span>Read More</span>
+                                                </div>
                                             </a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link" id="enx1-tab-2" data-toggle="pill" href="#enx1-tabs-2" role="tab" aria-selected="false">
-                                                <i class="fa fa-heart-o"></i> Lifestyle        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-wrap-4">
+                                    <div class="blog-img-4">
+                                        <a href="blog-details.html">
+                                            <img src="assets/images/blog/blog-2.jpg" alt="blog">
+                                        </a>
+                                        <span>Life Style</span>
+                                        <div class="video-btn-4">
+                                            <a class="video-popup" href="#"><i class="fa fa-play"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-content-4">
+                                        <h3><a href="#">Philosophy As A Science</a></h3>
+                                        <div class="blog-meta-4">
+                                            <ul>
+                                                <li>By <a href="#">by John Snow</a></li>
+                                                <li>-</li>
+                                                <li><a href="#">April 17,2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html">
+                                                <div class="Button-Content">
+                                                    <span>Read More</span>
+                                                </div>
                                             </a>
-                                        </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-wrap-4">
+                                    <div class="blog-img-4">
+                                        <a href="blog-details.html">
+                                            <img src="assets/images/blog/blog-3.jpg" alt="blog">
+                                        </a>
+                                        <span>BEAUTY</span>
+                                    </div>
+                                    <div class="blog-content-4">
+                                        <h3><a href="#">Does Hydroderm Work</a></h3>
+                                        <div class="blog-meta-4">
+                                            <ul>
+                                                <li>By <a href="#">by John Snow</a></li>
+                                                <li>-</li>
+                                                <li><a href="#">April 17,2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html">
+                                                <div class="Button-Content">
+                                                    <span>Read More</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-wrap-4">
+                                    <div class="blog-img-4">
+                                        <a href="blog-details.html">
+                                            <img src="assets/images/blog/blog-4.jpg" alt="blog">
+                                        </a>
+                                        <span>LOOK BOOK</span>
+                                    </div>
+                                    <div class="blog-content-4">
+                                        <h3><a href="#">Sleek Hair Sedu Style</a></h3>
+                                        <div class="blog-meta-4">
+                                            <ul>
+                                                <li>By <a href="#">by John Snow</a></li>
+                                                <li>-</li>
+                                                <li><a href="#">April 17,2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html">
+                                                <div class="Button-Content">
+                                                    <span>Read More</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="blog-wrap-4">
+                                            <div class="blog-img-4">
+                                                <a href="blog-details.html">
+                                                    <img src="assets/images/blog/blog-5.jpg" alt="blog">
+                                                </a>
+                                                <span>LOOK BOOK</span>
+                                            </div>
+                                            <div class="blog-content-4">
+                                                <h3><a href="#">Sensible Beauty Tips For Enhancing Your Appearance</a></h3>
+                                                <div class="blog-meta-4">
+                                                    <ul>
+                                                        <li>By <a href="#">by John Snow</a></li>
+                                                        <li>-</li>
+                                                        <li><a href="#">April 17,2019</a></li>
+                                                    </ul>
+                                                </div>
+                                                <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                                <div class="Button-Widget-genesis">
+                                                    <a href="product-details.html">
+                                                        <div class="Button-Content">
+                                                            <span>Read More</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="blog-wrap-4">
+                                            <div class="blog-img-4">
+                                                <a href="blog-details.html">
+                                                    <img src="assets/images/blog/blog-6.jpg" alt="blog">
+                                                </a>
+                                                <span>LOOK BOOK</span>
+                                            </div>
+                                            <div class="blog-content-4">
+                                                <h3><a href="#">Producing Perfume From Home</a></h3>
+                                                <div class="blog-meta-4">
+                                                    <ul>
+                                                        <li>By <a href="#">by John Snow</a></li>
+                                                        <li>-</li>
+                                                        <li><a href="#">April 17,2019</a></li>
+                                                    </ul>
+                                                </div>
+                                                <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                                <div class="Button-Widget-genesis">
+                                                    <a href="product-details.html">
+                                                        <div class="Button-Content">
+                                                            <span>Read More</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-wrap-4">
+                                    <div class="quote-content text-center">
+                                        <h5><a href="blog-details.html">“Highly customizable. Excellent design. Customer services has exceeded my expectation. They are quick to answer and even when they don’t know the answer right away. They’ll work with you towards a solution”</a></h5>
+                                        <div class="blog-name">
+                                            <span>Michael Franklin</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-wrap-4">
+                                    <div class="blog-img-4">
+                                        <a href="blog-details.html">
+                                            <img src="assets/images/blog/blog-7.jpg" alt="blog">
+                                        </a>
+                                        <span>LOOK BOOK</span>
+                                    </div>
+                                    <div class="blog-content-4">
+                                        <h3><a href="#">Fast And Furious Facial</a></h3>
+                                        <div class="blog-meta-4">
+                                            <ul>
+                                                <li>By <a href="#">by John Snow</a></li>
+                                                <li>-</li>
+                                                <li><a href="#">April 17,2019</a></li>
+                                            </ul>
+                                        </div>
+                                        <p>Ut tempus leo sed magna hendrerit, non congue libero blandit. Vestibulum libero diam, convallis in arcu ut, semper vulputate dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae usce luctus fringilla fermentum…</p>
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html">
+                                                <div class="Button-Content">
+                                                    <span>Read More</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pro-pagination-style">
+                                    <ul>
+                                        <li><a class="active" href="#">01</a></li>
+                                        <li><a href="#">02</a></li>
+                                        <li><a href="#">03</a></li>
+                                        <li><a href="#">04</a></li>
+                                        <li><a href="#">05</a></li>
                                     </ul>
                                 </div>
-                                <div class="tab-content" id="enx1-content">
-                                    <div class="tab-pane fade show active" id="enx1-tabs-1" role="tabpanel">
-                                        <ul class="p-0 m-0">
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">An Easier Speed Up The Fast UX Research</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Research An Easier Speed Fast UX Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Speed Up The Fast UX Research An Easier </a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="sidebar-search">
+                                <form class="search-form" action="#">
+                                    <input type="text" placeholder="SEARCH POST...">
+                                    <button class="button-search"><i class="lnr lnr-magnifier"></i></button>
+                                </form>
+                            </div>
+                            <div class="sidebar-widget mt-60 mb-55">
+                                <h4 class="pro-sidebar-title2">Popular Post </h4>
+                                <div class="sidebar-post-wrap mt-30">
+                                    <div class="single-sidebar-post">
+                                        <div class="sidebar-post-img">
+                                            <a href="blog-details.html"><img src="assets/images/blog/blog-sidebar-1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="sidebar-post-content">
+                                            <h4><a href="blog-details.html">Fahion Watch</a></h4>
+                                            <span>19 Augs, 2019 - by John </span>
+                                        </div>
                                     </div>
-                                    <div class="tab-pane fade show" id="enx1-tabs-2" role="tabpanel">
-                                        <ul class="p-0 m-0">
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="single-post-wrap">
-                                                    <div class="details">
-                                                        <h6 class="title mb-1"><a href="blog-details.html">Fast UX Research An Easier Speed Up The</a></h6>
-                                                        <div class="post-meta-single">
-                                                            <ul>
-                                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <div class="single-sidebar-post">
+                                        <div class="sidebar-post-img">
+                                            <a href="blog-details.html"><img src="assets/images/blog/blog-sidebar-2.jpg" alt=""></a>
+                                        </div>
+                                        <div class="sidebar-post-content">
+                                            <h4><a href="blog-details.html">Old Streets</a></h4>
+                                            <span>19 Augs, 2019 - by John </span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="widget widget_tags mb-0">
-                            <h4 class="widget-title">Tags</h4>
-                            <div class="tagcloud">
-                                <a href="#">Art</a>
-                                <a href="#">Creative</a>
-                                <a href="#">Article</a>
-                                <a href="#">Designer</a>
-                                <a href="#">Portfolio</a>
-                                <a href="#">Project</a>
-                                <a href="#">Personal</a>
-                                <a href="#">Landing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.sidebar -->
-            </div>
-        </div>
-    </div>
-    <!-- blog area end-->
-
-    <!-- footer area start -->
-    <div class="footer-area bg-black pd-top-60">
-        <div class="container">
-            <div class="footer-top">
-                <div class="subscribe-wrap">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4 align-self-center">
-                            <h4>SUBSCRIBE FOR NEWSLETTER</h4>
-                        </div>
-                        <div class="col-xl-9 col-lg-8 align-self-center mt-3 mt-lg-0">
-                            <div class="subscribe-inner">
-                                <input type="text" placeholder="Enter email address">
-                                <button class="btn btn-base-m">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="widget">
-                        <div class="widget_about">
-                            <a class="logo" href="index.html"><img src="assets/img/logo-2.png" alt="img"></a>
-                            <p>Magpie matrix economically sound value through cooperative technology task fully researched data and enterprise process improvements quality  products via client-focused results.</p>
-                            <ul class="social-area social-area-2 mt-4">
-                                <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="youtube-icon" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                <li><a class="instagram-icon" href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a class="google-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Useful Link</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="cat-tech.html">Tech</a></li>
-                            <li><a href="blog-details.html">Blog Single</a></li>
-                            <li><a href="cat-fashion.html">Fashion</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Category</h4>
-                        <ul>
-                            <li><a href="cat-tech.html">Tech</a></li>
-                            <li><a href="cat-fashion.html">Fashion</a></li>
-                            <li><a href="cat-lifestyle.html">Lifestyle</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="author.html">Author</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="widget widget_recent_post">
-                        <h5 class="widget-title">POPULAR NEWS</h5>
-                        <div class="single-post-list-wrap style-white">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/other/1.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <a class="cat-text cat-green" href="#">HEALTH</a>
-                                        <h6><a href="blog-details.html">Ratcliffe to be of nation talent</a></h6>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                    <div class="single-sidebar-post">
+                                        <div class="sidebar-post-img">
+                                            <a href="blog-details.html"><img src="assets/images/blog/blog-sidebar-3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="sidebar-post-content">
+                                            <h4><a href="blog-details.html">New Suite</a></h4>
+                                            <span>19 Augs, 2019 - by John </span>
+                                        </div>
+                                    </div>
+                                    <div class="single-sidebar-post">
+                                        <div class="sidebar-post-img">
+                                            <a href="blog-details.html"><img src="assets/images/blog/blog-sidebar-4.jpg" alt=""></a>
+                                        </div>
+                                        <div class="sidebar-post-content">
+                                            <h4><a href="blog-details.html">Beautiful Flower</a></h4>
+                                            <span>19 Augs, 2019 - by John </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="single-post-list-wrap style-white">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/other/1.png" alt="img">
+                            <div class="sidebar-widget mt-60 mb-55">
+                                <h4 class="pro-sidebar-title2">Categories </h4>
+                                <div class="sidebar-widget-list-2 mt-25">
+                                    <ul>
+                                        <li><a href="#">Life Style</a> <span>(12)</span></li>
+                                        <li><a href="#">Technology</a> <span>(08)</span></li>
+                                        <li><a href="#">Photography</a> <span>(06)</span></li>
+                                        <li><a href="#">Cafe</a> <span>(17)</span></li>
+                                        <li><a href="#">Travel</a> <span>(9)</span></li>
+                                        <li><a href="#">Games</a> <span>(14)</span></li>
+                                        <li><a href="#">Story love</a> <span>(11)</span></li>
+                                    </ul>
                                 </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <a class="cat-text cat-green" href="#">HEALTH</a>
-                                        <h6><a href="blog-details.html">Ratcliffe to be of nation talent</a></h6>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="sidebar-widget mb-60">
+                                <h4 class="pro-sidebar-title2">Archives </h4>
+                                <div class="archives-wrap mt-30">
+                                    <select>
+                                        <option> June 2019 </option>
+                                        <option> December 2018 </option>
+                                        <option> November 2018 </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget mb-55">
+                                <h4 class="pro-sidebar-title2">Tags </h4>
+                                <div class="sidebar-widget-tags-2 mt-25">
+                                    <ul>
+                                        <li><a href="#">Beauty,</a></li>
+                                        <li><a href="#">Life Style,</a></li>
+                                        <li><a href="#">Technology,</a></li>
+                                        <li><a href="#">Design,</a></li>
+                                        <li><a href="#">Fashion,</a></li>
+                                        <li><a href="#">Furniture,</a></li>
+                                        <li><a href="#">Travel,</a></li>
+                                        <li><a href="#">Photography,</a></li>
+                                        <li><a href="#">Motion Design</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget mb-65">
+                                <div class="blog-sidebar-banner">
+                                    <a href="#"><img alt="" src="assets/images/blog/banner-blog.jpg"></a>
+                                    <div class="blog-sidebar-content">
+                                        <h3>Ad Banner </h3>
+                                        <h5>info@example.com</h5>
                                     </div>
                                 </div>
                             </div>
+                            <div class="sidebar-widget mb-65">
+                                <div class="subscribe-form-5">
+                                    <form class="validate subscribe-form-style-5" novalidate="" name="mc-embedded-subscribe-form" method="post" action="#">
+                                        <div class="mc-form-5">
+                                            <input class="email" type="email" required="" placeholder="Enter your email address..." name="EMAIL" value="">
+                                            <div class="mc-news-5" aria-hidden="true">
+                                                <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef">
+                                            </div>
+                                            <div class="clear-5">
+                                                <input class="button" type="submit" name="subscribe" value="">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>                          
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom text-center">
-            <p>2025 © All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板">网站模板</a></p>
-        </div>
-    </div>
-    <!-- footer area end -->
+            <!-- blog area end -->
+            <!-- Footer -->
+            <footer class="footer-area bg-main">
+                <div class="container">              
+                    <div class="row align-items-top">
+                        <div class="first-footer-inner col-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="newsletter-title">
+                                    <h2 class="title">Sign Up To Get Latest Update</h2>
+                                    <p>Sign up for our monthly newsletter for the latest news &amp; articles</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div id="mc_embed_signup" class="subscribe-form-2">
+                                    <form id="mc-embedded-subscribe-form" class="validate subscribe-form-style-2" novalidate="" name="mc-embedded-subscribe-form" method="post" action="#">
+                                        <div id="mc_embed_signup_scroll" class="mc-form-2">
+                                            <input class="email" type="email" required="" placeholder="Enter Your Email" name="EMAIL" value="">
+                                            <div class="mc-news-2" aria-hidden="true">
+                                                <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef">
+                                            </div>
+                                            <div class="clear-2">
+                                                <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Subscribe">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- back to top area start -->
-    <div class="back-to-top">
-        <span class="back-top"><i class="fa fa-angle-up"></i></span>
-    </div>
-    <!-- back to top area end -->
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo.png" alt="">
+                                </a>          
+                            </div>
+                            <p>Genesis design consultancy firm that brings sensitivity to the design top restaurants, hotels, offices &amp; homes around the world, the prestigious luxury is. We do all types of interior designing.</p>
+                        </div>   
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="footer-widget">
+                                <h3 class="footer-title">Quick Links</h3>
+                                <div class="footer-info-list">
+                                    <ul>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">About Us</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Latest News</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Portfolio</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Planning</a></li>           
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Privacy Policy</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Services</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Testimonial</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Our Team</a></li>           
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Designing</a></li>  
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>              
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="footer-widget">
+                                <h3 class="footer-title">Contact</h3>
+                                <div class="Phone">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/call.png" alt="">
+                                        </a>          
+                                    </div>
+                                    <div class="title-box">
+                                        <h5 class="title">Phone Number</h5>
+                                        <p>+123 456 7890</p>
+                                    </div>	
+                                </div>
+                                <div class="Email">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/email.png" alt="">
+                                        </a>          
+                                    </div>
+                                    <div class="title-box">
+                                        <h5 class="title">Email Address</h5>
+                                        <p>info@example.com</p>
+                                    </div>	
+                                </div>
+                                <div class="Location">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/location.png" alt="">
+                                        </a>          
+                                    </div>
+                                    <div class="title-box">
+                                        <h5 class="title">Location</h5>
+                                        <p>16/B, Miranda City, NYC</p>
+                                    </div>	
+                                </div>
+                            </div>
+                        </div>              
+                    </div>                
+                </div>                         
+                <div class="footer-bottom-area">
+                    <div class="row align-items-center">  
+                        <div class="container">
+                            <div class="footer-bottom-home footer-bottom-pb footer-bottom-pt w-100">                          
+                                <div class="row align-items-center">
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <p>Copyright © 2025 All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <ul class="ekit-team-social-list">
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer> 
+        </div>
 
-    <!-- all plugins here -->
-    <script src="assets/js/vendor.js"></script>
-    <!-- main js  -->
-    <script src="assets/js/main.js"></script>
-</body>
+        <!-- All JS is here
+    ============================================ -->
+
+        <!-- Modernizer JS -->
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <!-- jquery -->
+        <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/vendor/popper.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-notify.min.js"></script>
+        <script src="assets/js/plugins/owl-carousel.js"></script>
+        <script src="assets/js/plugins/slick.js"></script>
+        <script src="assets/js/plugins/jquery.mb.ytplayer.min.js"></script>
+        <script src="assets/js/plugins/magnific-popup.js"></script>
+        <script src="assets/js/plugins/wow.js"></script>
+        <script src="assets/js/plugins/instafeed.js"></script>
+        <script src="assets/js/plugins/countdown.js"></script>
+        <script src="assets/js/plugins/jarallax.min.js"></script>
+        <script src="assets/js/plugins/images-loaded.js"></script>
+        <script src="assets/js/plugins/isotope.js"></script>
+        <script src="assets/js/plugins/tilt.js"></script>
+        <script src="assets/js/plugins/jquery-ui.js"></script>
+        <script src="assets/js/plugins/jquery-ui-touch-punch.js"></script>
+        <script src="assets/js/plugins/easyzoom.js"></script>
+        <script src="assets/js/plugins/resizesensor.js"></script>
+        <script src="assets/js/plugins/sticky-sidebar.js"></script>
+        <script src="assets/js/plugins/scrollup.js"></script>
+        <script src="assets/js/plugins/ajax-mail.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
 </html>

@@ -1,1718 +1,1012 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Magpie - Blog, Magazine Html Template</title>
-    
-    <!-- favicon -->
-    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+<!doctype html>
+<html class="no-js" lang="en">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Genesis - Multipurpose eCommerce HTML Template</title>
+        <meta name="robots" content="noindex, follow" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
-</head>
-<body>
+        <!-- All CSS is here
+            ============================================ -->
 
-    <!-- preloader area start -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <!-- Icon Font CSS -->
+        <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/vendor/linearicons.css">
+        <link rel="stylesheet" href="assets/css/vendor/themify-icons.css">
+        <!-- Others CSS -->
+        <link rel="stylesheet" href="assets/css/plugins/owl-carousel.css">
+        <link rel="stylesheet" href="assets/css/plugins/slick.css">
+        <link rel="stylesheet" href="assets/css/plugins/animate.css">
+        <link rel="stylesheet" href="assets/css/plugins/jquery.mb.ytplayer.min.css">
+        <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/plugins/jarallax.css">
+        <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+
+    </head>
+
+    <body class="home">
+        <div class="main-wrapper">
+            <div class="grid-lines-holder">
+                <div class="grid-line grid-column-1"></div>
+                <div class="grid-line grid-column-2"></div>
+                <div class="grid-line grid-column-3"></div>
+                <div class="grid-line grid-column-4"></div>
+                <div class="grid-line grid-column-5"></div>                  
             </div>
-        </div>
-    </div>
-
-    <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- search popup end-->
-    <div class="body-overlay" id="body-overlay"></div>
-
-    <!-- header start -->
-    <div class="navbar-area">
-        <!-- topbar end-->
-        <div class="topbar-area">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-sm-7 align-self-center">
-                        <div class="topbar-menu text-md-left text-center">
-                            <ul class="align-self-center">
-                                <li><img src="assets/img/icon/1.png" alt="img"> Dhaka <span>29°C </span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-5 mt-2 mt-md-0 text-md-right text-center">
-                        <div class="topbar-social">
-                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i>  April 7, 2021</div>
-                            <ul class="social-area social-area-2">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- topbar end-->
-
-        <!-- adbar end-->
-        <div class="adbar-area d-none d-lg-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-5 align-self-center">
-                        <div class="logo text-md-left text-center">
-                            <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7 text-md-right text-center">
-                        <a href="#" class="adbar-right">
-                            <img src="assets/img/add/1.png" alt="img">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- adbar end-->
-
-        <!-- navbar start -->
-        <nav class="navbar bg-gradient navbar-expand-lg">
-            <div class="container nav-container">
-                <div class="responsive-mobile-menu">
-                    <div class="logo d-lg-none d-block">
-                        <a class="main-logo" href="index.html"><img src="assets/img/logo-4.png" alt="img"></a>
-                    </div>
-                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-left"></span>
-                        <span class="icon-right"></span>
-                    </button>
-                </div>
-                <div class="nav-right-part nav-right-part-mobile">
-                    <a class="nav-search" href="#"><i class="fa fa-search"></i></a>
-                </div>
-                <div class="collapse navbar-collapse" id="nextpage_main_menu">
-                    <ul class="navbar-nav menu-open">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                                <li><a href="index-4.html">Home 04</a></li>
-                                <li><a href="index-5.html">Home 05</a></li>
-                                <li><a href="index-6.html">Home 06</a></li>
-                                <li><a href="index-7.html">Home 07</a></li>
-                                <li><a href="index-8.html">Home 08</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Category</a>
-                            <ul class="sub-menu">
-                                <li><a href="cat-tech.html">Tech</a></li>
-                                <li><a href="cat-lifestyle.html">Lifestyle</a></li>
-                                <li><a href="cat-fashion.html">Fashion</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="author.html">Author</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-right-part nav-right-part-desktop">
-                    <ul>
-                        <li><a class="nav-search" href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><img src="assets/img/icon/2.png" alt="img"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- navbar end -->
-
-    <!-- breaking news start -->
-    <div class="breaking-news style-two">
-        <div class="container">
-            <div class="breaking-title">Breaking News</div>
-            <div class="breaking-news-slider nav-style-base owl-carousel">
-                <div class="item">
-                    <p>Another Big Apartment Project Slated for Broad Ripple Company...</p>
-                </div>
-                <div class="item">
-                    <p>Another Big Apartment Project Slated for Broad Ripple Company...</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- breaking news end -->
-
-    <!-- banner area start -->
-    <div class="banner-area pt-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="single-post-slider banner-slider owl-carousel">
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/banner/1.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
+            <header class="header-area">
+                <div class="header-large-device">                   
+                    <div class="header-bottom">
+                        <div class="container">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-xl-2 col-lg-2">
+                                    <div class="logo logo-res-lg">
+                                        <a href="index.html">
+                                            <img src="assets/images/logo/logo.png" alt="logo">
+                                        </a>
+                                    </div>
+                                </div>                           
+                                <div class="col-lg-6">
+                                    <div class="main-menu menu-lh-1 main-menu-padding-1 menu-text-white main-menu-padding1">
+                                        <nav>
+                                            <ul>
+                                                <li><a class="active" href="index.html">Home</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="home-02.html">Home-02</a></li>
+                                                        <li><a href="home-03.html">Home-03</a></li> 
+                                                        <li><a href="home-04.html">Home-04</a></li> 
+                                                        <li><a href="home-05.html">Home-05</a></li> 
+                                                        <li><a href="home-06.html">Home-06</a></li>   
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Pages</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="faq.html">FAQ</a></li>
+                                                        <li><a href="404.html">404 Page</a></li>
+                                                        <li><a href="contact.html">Contact Page</a></li>
+                                                        <li><a href="coming-soon.html">Comming Soon</a></li>
+                                                        <li><a href="empty-cart.html">Empty Cart</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="shop-fullwide.html">Shop</a>
+                                                    <ul class="mega-menu-style-2 mega-menu-width2 menu-negative-mrg3">
+                                                        <li class="mega-menu-sub-width20"><a class="menu-title" href="#">Shop Layout</a>
+                                                            <ul>
+                                                                <li><a href="shop-fullwide.html">Shop Fullwidth</a></li>
+                                                                <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                                <li><a href="shop-3-col.html">Shop 03 Columns</a></li>
+                                                                <li><a href="shop-list-style.html">Shop List Style</a></li>
+                                                                <li><a href="order-tracking.html">Order Tracking</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-menu-sub-width22"><a class="menu-title" href="#">Product Layout</a>
+                                                            <ul>
+                                                                <li><a href="product-details.html">Product Details</a></li>
+                                                                <li><a href="product-details-group.html">Grouped</a></li>
+                                                                <li><a href="product-details-sticky.html">Sticky Info</a></li>
+                                                                <li><a href="product-details-video.html">Video</a></li>
+                                                                <li><a href="product-details-affiliate.html">Affiliate</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="mega-menu-sub-width20"><a class="menu-title" href="#">Shop Pages</a>
+                                                            <ul>
+                                                                <li><a href="my-account.html">My Account</a></li>
+                                                                <li><a href="checkout.html">Check Out</a></li>
+                                                                <li><a href="cart.html">Shopping Cart</a></li>
+                                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                                <li><a href="login-register.html">login / register</a></li>
+                                                            </ul>
+                                                        </li>                                                        
+                                                    </ul>
+                                                </li>
+                                                <li><a href="blog.html">Blog</a>
+                                                    <ul class="sub-menu-width">
+                                                        <li><a href="blog-layout-02.html">Blog Layout</a></li>
+                                                        <li><a href="blog.html">Blog Page</a></li>
+                                                        <li><a href="blog-no-sidebar.html">Blog No sidebar</a></li>
+                                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                        <li><a href="blog-details.html">Blog Details</a></li>                                                        
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </nav>
                                     </div>
                                 </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-fashion.html">HEALTH</a></li>
-                                            <li><a class="tag-base tag-red" href="cat-fashion.html">COVID-19</a></li>
-                                        </ul>
+                                <div class="col-lg-4 d-flex justify-content-end">
+                                    <div class="header-right-wrap header-right-flex">
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="login-register.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="wishlist.html"><i class="fa fa-heart-o"></i>
+                                                <span><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="same-style same-style-mrg-dec">
+                                            <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+                                                <span>0</span>
+                                            </a>
+                                        </div>                                      
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/banner/2.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-fashion.html">HEALTH</a></li>
-                                            <li><a class="tag-base tag-red" href="cat-fashion.html">COVID-19</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/banner/3.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-fashion.html">HEALTH</a></li>
-                                            <li><a class="tag-base tag-red" href="cat-fashion.html">COVID-19</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="post-list-wrap">
-                        <div class="single-post-wrap">
-                            <div class="details">
-                                <a class="cat-text cat-red" href="cat-tech.html">Health</a>
-                                <h6><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                <div class="post-meta-single mb-3">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                    </ul>
+                <div class="header-small-device bg-main">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="mobile-logo mobile-logo-width">
+                                    <a href="index.html">
+                                        <img alt="" src="assets/images/logo/logo.png">
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="single-post-wrap">
-                            <div class="details">
-                                <a class="cat-text cat-purple" href="cat-tech.html">Travel</a>
-                                <h6><a href="blog-details.html">Director Ratcliffe to be of nation talent</a></h6>
-                                <div class="post-meta-single mb-3">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post-wrap">
-                            <div class="details">
-                                <a class="cat-text cat-blue" href="cat-tech.html">Tech</a>
-                                <h6><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                <div class="post-meta-single">
-                                    <ul>
-                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                    </ul>
+                            <div class="col-6">
+                                <div class="header-right-wrap header-right-flex">
+                                    <div class="same-style same-style-mrg-dec">
+                                        <a href="login-register.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i>
+                                            <span><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a class="cart-active" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                            <span>0</span>
+                                        </a>
+                                    </div>
+                                    <div class="same-style">
+                                        <a class="mobile-menu-button-active" href="#"><i class="fa fa-bars"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+            </header>          
+            <!-- mini cart start -->
+            <div class="sidebar-cart-active">
+                <div class="sidebar-cart-all">
+                    <a class="cart-close" href="#"><i class=" ti-close "></i></a>
+                    <div class="cart-content">
+                        <h3>Shopping Cart</h3>
+                        <ul>
+                            <li class="single-product-cart">
+                                <div class="cart-img">
+                                    <a href="#"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                </div>
+                                <div class="cart-title">
+                                    <h4><a href="#">Awesome Mobile</a></h4>
+                                    <span> 1 × $49.00	</span>
+                                </div>
+                                <div class="cart-delete">
+                                    <a href="#">×</a>
+                                </div>
+                            </li>
+                            <li class="single-product-cart">
+                                <div class="cart-img">
+                                    <a href="#"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                </div>
+                                <div class="cart-title">
+                                    <h4><a href="#">Nice Headphones</a></h4>
+                                    <span> 1 × $49.00	</span>
+                                </div>
+                                <div class="cart-delete">
+                                    <a href="#">×</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cart-total">
+                            <h4>Subtotal: <span>$170.00</span></h4>
+                        </div>
+                        <div class="cart-checkout-btn">
+                            <a class="btn-hover cart-btn-style" href="cart.html">view cart</a>                                                             
+                            <a class="no-mrg btn-hover cart-btn-style" href="checkout.html">checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile menu start -->
+            <div class="mobile-menu-active clickalbe-sidebar-wrapper-style-1">
+                <div class="clickalbe-sidebar-wrap">
+                    <a class="sidebar-close"><i class=" ti-close "></i></a>
+                    <div class="mobile-menu-content-area sidebar-content-100-percent">
+                        <div class="mobile-search">
+                            <form class="search-form" action="#">
+                                <input type="text" placeholder="Search entire store…">
+                                <button class="button-search"><i class=" ti-search "></i></button>
+                            </form>
+                        </div>
+                        <div class="clickable-mainmenu-wrap clickable-mainmenu-style1">
+                            <nav>
+                                <ul>
+                                    <li class="has-sub-menu"><a href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="home-02.html">Home-02</a></li>
+                                            <li><a href="home-03.html">Home-03</a></li>   
+                                            <li><a href="home-04.html">Home-04</a></li>   
+                                            <li><a href="home-05.html">Home-05</a></li>  
+                                            <li><a href="home-06.html">Home-06</a></li>   
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">Pages</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact Page</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="coming-soon.html">Comming Soon</a></li>
+                                            <li><a href="empty-cart.html">Empty Cart</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">shop</a>
+                                        <ul class="sub-menu-2">
+                                            <li class="has-sub-menu"><a href="#">Shop Layout</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="shop-fullwide.html">Shop Fullwidth</a></li>
+                                                    <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                    <li><a href="shop-3-col.html">Shop 03 Columns</a></li>
+                                                    <li><a href="shop-list-style.html">Shop List Style</a></li>
+                                                    <li><a href="order-tracking.html">Order Tracking</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-sub-menu"><a href="#">Product Layout</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="product-details.html">Single 01</a></li>
+                                                    <li><a href="product-details-group.html">Grouped</a></li>
+                                                    <li><a href="product-details-sticky.html">Sticky Info</a></li>
+                                                    <li><a href="product-details-video.html">Video</a></li>
+                                                    <li><a href="product-details-affiliate.html">Affiliate</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-sub-menu"><a href="#">Shop Page</a>
+                                                <ul class="sub-menu-2">
+                                                    <li><a href="my-account.html">My Account</a></li>
+                                                    <li><a href="checkout.html">Check Out</a></li>
+                                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>                                                  
+                                                    <li><a href="login-register.html">login / register</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-sub-menu"><a href="#">Blog</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="blog-layout-02.html">Blog layout</a></li>
+                                            <li><a href="blog.html">Blog Page</a></li>
+                                            <li><a href="blog-no-sidebar.html">Blog No sidebar</a></li>
+                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>                      
+                        <div class="header-aside-content">                           
+                            <div class="social-icon-style-2 mb-25">
+                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                                <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider -->  
+            <div class="slider-area">
+                <div class="container-fluid p-0">
+                    <div class="slider-nav-position">                       
+                        <section id="single-main-slider-1" class="homeSlide">
+                            <div class="container-bcg"
+                                 data-center="background-position: 50% 0px;"
+                                 data-top-bottom="background-position: 50% -100px;"
+                                 data-anchor-target="#slide-1"
+                                 >
+                                <div class="main-slider-content-2 text-center"
+                                     data-center="bottom: 200px; opacity: 1"
+                                     data-top="bottom: 1200px; opacity: 0"
+                                     data-anchor-target="#slide-1"
+                                     >                                  
+                                    <div class="main-slider-content-2 text-center">
+                                        <h1 class="animated"><span>Your Dream</span>Our Passion</h1>                                     
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html" class="Button-Widget animated ">
+                                                <div class="Button-Content">
+                                                    <span>Shop now</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                                 
+                                </div>
+                            </div>
+                        </section>
+                        <section id="single-main-slider-2" class="homeSlide">
+                            <div class="container-bcg"
+                                 data-center="background-position: 50% 0px;"
+                                 data-top-bottom="background-position: 50% -100px;"
+                                 data-bottom-top="background-position: 50% 100px;"
+                                 data-anchor-target="#slide-2"
+                                 >
+                                <div class="main-slider-content-2 text-center"
+                                     data-center="opacity: 1"
+                                     data-center-top="opacity: 0"
+                                     data--100-bottom="opacity: 0;"
+                                     data-anchor-target="#slide-2"
+                                     >
+                                    <div class="main-slider-content-2 text-center">
+                                        <h1 class="animated"><span>House</span>First Class</h1>                                                                  
+                                        <div class="Button-Widget-genesis">
+                                            <a href="product-details.html" class="Button-Widget animated">
+                                                <div class="Button-Content">
+                                                    <span>Shop now</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>                            
+                    </div>
+                </div>
+            </div>
+            <!--- philosophy --->
+            <div class="philosophy-area">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-6">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/banner/4.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <h6 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx</a></h6>
+                        <div class="philosophy-cover">
+                            <div class="col-lg-5 col-md-12">                              
+                                <div class="philosophy-content">
+                                    <h3><span class="headline">PHILOSOPHY</span></h3>
+                                    <h2>The Idea</h2>
+                                    <p>Each property is given individual consideration. Through a process of in-depth research and discovery we identify each property’s innate qualities. Guided by our philosophy we seek to enhance the singular characteristics presented in each property that are as particular. Organically grow the holistic world view of disruptive innovation.</p>                
+                                    <div class="button-icon">                                           
+                                        <a class="button-text" href="#" >View More<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>                                       
+                                    </div>
+                                </div>                              
+                            </div>
+                            <div class="col-lg-7 col-md-12">
+                                <div class="image-stack">
+                                    <div class="image-stack-top">
+                                        <a href="#">
+                                            <img src="assets/images/cms/01.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="image-stack-bottom">
+                                        <a href="#">
+                                            <img src="assets/images/cms/02.jpg" alt="">
+                                        </a>
+                                    </div>   
+                                    <div class="image-stack-bottom-01">
+                                        <a href="#">
+                                            <img src="assets/images/cms/03.jpg" alt="">
+                                        </a>
+                                    </div>                                   
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-6">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/banner/5.png" alt="img">
+                    </div>
+                </div>
+                <!-- start count stats -->
+                <section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 stats">                     
+                                <div class="count">1778</div>
+                                <h5>SQUARE METERS</h5>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 stats">                     
+                                <div class="count">15</div>
+                                <h5>SEPARATE VILLAS</h5>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 stats">                     
+                                <div class="count">20</div>
+                                <h5>MILES FROM THE CITY</h5>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 stats">                       
+                                <div class="count">2021</div>
+                                <h5>PROJECT FINISH</h5>
+                            </div>
+                        </div>               
+                    </div>          
+                </section>
+            </div>     
+            <!-- Light and Shadow -->
+            <div class="Light-Shadow">
+                <div class="since-text">
+                    <h5>Since 2004</h5>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="light-shadow-cover">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="Light-Shadow-text"> 
+                                    <h3><span class="headline">INTERIORS</span></h3>
+                                    <h2>Light and Shadow </h2>                                       
+                                    <p>Founded by Robert Downey Jr in 2004, we’re an employee-owned firm pursuing a democratic design process that values everyone’s input. Today we have more than 150 people in London, Hong Kong and Sydney providing architecture, interior &amp; urban design services from concept to completion.</p>
+                                    <div class="Button-Widget-genesis">
+                                        <a href="#" class="Button-Widget">
+                                            <div class="Button-Content">
+                                                <span>View All Locations</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="details">
-                                    <h6 class="title"><a href="blog-details.html">Moving this the secret to ancient sphinx</a></h6>
+                            </div>
+                            <div class="col-lg-7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- choose your type -->
+            <div class="portfolio-area section-padding-1 pb-100">
+                <div class="container-fluid p-0">               
+                    <div class="portfolio-active owl-carousel">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-01.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Apartment Cambridge</span>                                              
+                                        <span class="portfolio-caption">Apartment</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                   
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-02.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Studio builds</span>                                              
+                                        <span class="portfolio-caption">Project Design</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-03.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Housing Block Building</span>                                              
+                                        <span class="portfolio-caption">High Rise</span>             
+                                    </div>
                                 </div>
                             </div>
                         </div>  
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-04.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">The New-York</span>                                              
+                                        <span class="portfolio-caption">Design Interiors</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                     
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-05.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Global Terfa</span>                                              
+                                        <span class="portfolio-caption">Architecture</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-06.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Oasis Terraces Projects</span>                                              
+                                        <span class="portfolio-caption">Architecture</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                   
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">                                
+                                <a href="#">
+                                    <img src="assets/images/product/a-07.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="portfolio-gallery-wrap portfolio-gallery">
+                                <div class="portfolio-gallery-bg">
+                                    <div class="portfolio-content">                                 
+                                        <span class="portfolio-title title-font">Pine of Renzo Residence</span>                                              
+                                        <span class="portfolio-caption">Architecture home</span>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                       
                     </div>
                 </div>
-            </div>
-            <!-- banner bottom -->
-            <div class="banner-bottom">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6">
-                        <div class="single-post-list-wrap style-small">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/post/1.png" alt="img">
+            </div>      
+            <!--- Luxury Town Houses --->
+            <section class="luxury-town-houses pb-100">
+                <div class="container">                   
+                    <div class="luxury-houses col-lg-12">
+                        <div class="row justify-content-between">                            
+                            <div class="col-lg-4 col-sm-12 p-0">
+                                <div class="luxury-houses-img">                              
+                                    <img src="assets/images/cms/pattern.jpg" alt="">                                                                                      
                                 </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <h6 class="title mb-2"><a href="blog-details.html">Ratcl to be Director</a></h6>
-                                        <p>The overall global Covid-19 has topped 132.2M</p>
+                            </div>                            
+                            <div class="luxury-houses-area col-lg-8 col-sm-12">                              
+                                <div class="luxury-houses-info col-lg-7 col-md-7 col-sm-12">
+                                    <div class="luxury-houses-text">                                                                                                                                     
+                                        <h2>Luxury Town Houses</h2>  
+                                        <h3>from $999 000</h3>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="single-post-list-wrap style-small">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/post/2.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <h6 class="title mb-2"><a href="blog-details.html">Director Riffe to be</a></h6>
-                                        <p>The overall global Covid-19 has topped 132.2M</p>
+                                <div class="luxury-houses-info col-lg-5 col-md-5 col-sm-12">
+                                    <div class="luxury-houses-services">                                                                                                        
+                                        <div class="Button-Widget-genesis">                                       
+                                            <a href="#" class="Button-Widget">
+                                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                                <div class="service-content-title">
+                                                    <div class="service-content-supertitle">Call us Now</div>
+                                                    <div class="service-title">+1 800 555 123</div>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="single-post-list-wrap style-small">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/post/3.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <h6 class="title mb-2"><a href="blog-details.html">The seen be Director</a></h6>
-                                        <p>The overall global Covid-19 has topped 132.2M</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="single-post-list-wrap style-small">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/post/4.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <h6 class="title mb-2"><a href="blog-details.html">talent to be screen</a></h6>
-                                        <p>The overall global Covid-19 has topped 132.2M</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>
-    <!-- banner area end -->
-
-    <!-- new post area end -->
-    <div class="new-post-area pd-top-60 pd-bottom-30">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <h6 class="title">WHATS NEW</h6>
-                    </div>
-                    <div class="single-post-slider banner-slider-2 owl-carousel">
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/post/5.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-tech.html">Tech</a></li>
-                                            <li><a class="tag-base tag-purple" href="cat-fashion.html">Fashion</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/post/6.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-tech.html">Tech</a></li>
-                                            <li><a class="tag-base tag-purple" href="cat-fashion.html">Fashion</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/post/7.png" alt="img">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><a class="tag-base tag-blue" href="cat-tech.html">Tech</a></li>
-                                            <li><a class="tag-base tag-purple" href="cat-fashion.html">Fashion</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="section-title pb-3">
-                        <div class="nxp-tab-inner nxp-tab-post">
-                            <ul class="nav nav-tabs" id="enx1" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="enx1-tab-1" data-toggle="pill" href="#enx1-tabs-1" role="tab" aria-selected="true">
-                                        All
+            </section>
+            <!--- services item --->
+            <div class="services-item-area pt-100 pb-100">
+                <div class="container">
+                    <div class="title-headline">
+                        <h3><span class="headline">NESTIN HOUSE</span></h3>
+                        <h2>Designed to meet the<br> highest criteria</h2>
+                    </div>
+                    <div class="row">                   
+                        <div class="col-lg-3 col-md-6 col-sm-6 ">
+                            <div class="services-item">                            
+                                <img src="assets/images/service/icon1.png" alt="">
+                                <h4>PROJECT MANAGEMENT</h4>
+                                <p>Capitalize on low hanging fruit to identify a ballpark value added activity.</p>
+                                <div class="button-icon">                                           
+                                    <a class="button-text" href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>                                       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="services-item">
+                                <img src="assets/images/service/icon2.png" alt="">
+                                <h4>SOLAR PANELS</h4>
+                                <p>To beta test override the digital divide with additional clickthroughs from.</p>
+                                <div class="button-icon">                                           
+                                    <a class="button-text" href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>                                       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="services-item">
+                                <img src="assets/images/service/icon3.png" alt="">
+                                <h4>NATURAL ENVIRONMENT</h4>
+                                <p>DevOps nanotechnology immersion along the information highway will.</p>
+                                <div class="button-icon">                                           
+                                    <a class="button-text" href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>                                       
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="services-item">                            
+                                <img src="assets/images/service/icon4.png" alt="">
+                                <h4>URBAN PLANNING</h4>
+                                <p>Close the loop on focusing solely on the bottom line capitalize on low hanging.</p>
+                                <div class="button-icon">                                           
+                                    <a class="button-text" href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <!-- Blog -->
+            <div class="blog-area section-padding-1 pt-100 pb-60">
+                <div class="container">                   
+                    <div class="title-headline">
+                        <h3><span class="headline">PROPERTY AMENITIES</span></h3>
+                        <h2>Latest Blog</h2>                                      
+                    </div>
+                    <div class="row">                 
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 blog-round">
+                            <div class="blog-wrap">
+                                <div class="blog-img">                                
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/blog/blog-01.jpg" alt="">
                                     </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="enx1-tab-2" data-toggle="pill" href="#enx1-tabs-2" role="tab" aria-selected="false">
-                                        Lifestyle        
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li>By<a href="#"> June 10, 2021 </a></li>
+                                            <li>-</li>
+                                            <li><a href="#">11 Dec 2021</a></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="blog-details.html">Warm Luxury </a></h3>
+                                    <div class="qodef-separator"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nus indididunt ut labore etis... </p>
+                                    <div class="Button-Widget-genesis">
+                                        <a href="#" class="Button-Widget">
+                                            <div class="Button-Content">
+                                                <span>know More</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 blog-round">
+                            <div class="blog-wrap">
+                                <div class="blog-img">                             
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/blog/blog-02.jpg" alt="">
                                     </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="enx1-tab-3" data-toggle="pill" href="#enx1-tabs-3" role="tab" aria-selected="false">
-                                        Travel        
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li>By <a href="#"> John Doe</a></li>
+                                            <li>-</li>
+                                            <li><a href="#">17 Dec 2021</a></li>
+                                        </ul>                              
+                                    </div>
+                                    <h3><a href="blog-details.html">Great Guide </a></h3>
+                                    <div class="qodef-separator"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nus indididunt ut labore etis... </p>
+                                    <div class="Button-Widget-genesis">
+                                        <a href="#" class="Button-Widget">
+                                            <div class="Button-Content">
+                                                <span>know More</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12 blog-round">
+                            <div class="blog-wrap">
+                                <div class="blog-img">                                
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/blog/blog-03.jpg" alt="">
                                     </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="enx1-tab-4" data-toggle="pill" href="#enx1-tabs-4" role="tab" aria-selected="false">
-                                        Fashion        
-                                    </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="enx1-tab-5" data-toggle="pill" href="#enx1-tabs-5" role="tab" aria-selected="false">
-                                        Technology        
-                                    </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="enx1-tab-6" data-toggle="pill" href="#enx1-tabs-6" role="tab" aria-selected="false">
-                                        Health        
-                                    </a>
-                                </li>
-                            </ul>
+                                </div>
+                                <div class="blog-content ">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li>By <a href="#"> John Doe</a></li>
+                                            <li>-</li>
+                                            <li><a href="#">10 Dec 2021</a></li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="blog-details.html">Calm Afternoon </a></h3>
+                                    <div class="qodef-separator"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nus indididunt ut labore etis... </p>
+                                    <div class="Button-Widget-genesis">
+                                        <a href="#" class="Button-Widget">
+                                            <div class="Button-Content">
+                                                <span>know More</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>                
+            <!-- Testimonial -->
+            <div class="testimonial-area bg-gray pt-100">
+                <div class="container">
+                    <div class="title-text">
+                        <h3><span class="headline">MATERIALS</span></h3>
+                        <h2>+2,500 Happy Clients</h2>
+                    </div>             
+                    <div class="testimonial-active owl-carousel">
+                        <div class="single-testimonial d-flex col-12">                         
+                            <div class="client-info">
+                                <i class="fa fa-quote-right"></i>
+                                <h4><span>Ryan Betthalyn</span> / Director at Chobham Manor</h4>
+                                <p>Sed elit quam, iaculis sed semper sit amet udin vitae nibh. Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon Dolor tusima olatiup.</p>
+                            </div>
+                        </div>
+                        <div class="single-testimonial d-flex">
+                            <div class="single-testimonial d-flex col-12">                         
+                                <div class="client-info">
+                                    <i class="fa fa-quote-right"></i>
+                                    <h4><span>Bobs Hanley</span> / Owner of Edden Villa</h4>
+                                    <p>Sed elit quam, iaculis sed semper sit amet udin vitae nibh. Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon Dolor tusima olatiup.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial d-flex ">
+                            <div class="single-testimonial d-flex col-12">                         
+                                <div class="client-info">
+                                    <i class="fa fa-quote-right"></i>                                   
+                                    <h4><span>Bobs Hanley</span> / Owner of Edden Villa</h4>
+                                    <p>Sed elit quam, iaculis sed semper sit amet udin vitae nibh. Rubino staveuo at magna akal semperFusce commodo molestie luctus.Lorem ipsum ulicon Dolor tusima olatiup.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-content" id="enx1-content">
-                        <div class="tab-pane fade show active" id="enx1-tabs-1" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">HEALTH</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-blue" href="cat-fashion.html">BUSINESS</a>
-                                                <h5><a href="blog-details.html">Caseload tops vlobal Covid-19</a></h5>
-                                                <p>while the deaths have surged The overall global Covid-19 caseload has topped 132.2 million</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">while deaths Global Covid-19 case</a></h5>
-                                                <p>Covid-19 caseload has topped 132.2 million The overall global, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="tab-pane fade" id="enx1-tabs-2" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Caseload tops vlobal Covid-19</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">while the deaths Covid-19 case</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>               
-                        </div>
-                        <div class="tab-pane fade" id="enx1-tabs-3" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Caseload tops vlobal Covid-19</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="enx1-tabs-4" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Global caseload tops 132.2m</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="cat-fashion.html">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="tab-pane fade" id="enx1-tabs-5" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Ratcliffe to be load tops 1</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="tab-pane fade" id="enx1-tabs-6" role="tabpanel">
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/10.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/8.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Millionfe to be load tops 1</a></h5>
-                                                <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-post-list-wrap style-two">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <img src="assets/img/post/9.png" alt="img">
-                                    </div>
-                                    <div class="media-body align-self-center">
-                                        <div class="details">
-                                            <div class="details">
-                                                <a class="cat-text cat-red" href="#">FASHION</a>
-                                                <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                                <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                                <div class="post-meta-single">
-                                                    <ul>
-                                                        <li><i class="fa fa-user"></i>Magpie</li>
-                                                        <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>  
+                </div>
             </div>
-        </div>
-    </div>
-    <!-- new post area end -->
+            <!-- Brand Slider -->
+            <div class="brand-logo-area pt-40 pb-40 bg-gray section-padding-3">
+                <div class="container">
+                    <div class="brand-logo-ptb">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="brand-logo-active owl-carousel">
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/01.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/07.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/03.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/08.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/05.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/12.png" alt="">
+                                    </div>
+                                    <div class="single-brand-logo">
+                                        <img src="assets/images/brand-logo/07.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                                      
+            <!-- Footer -->
+            <footer class="footer-area bg-main">
+                <div class="container">              
+                    <div class="row align-items-top">
+                        <div class="first-footer-inner col-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="newsletter-title">
+                                    <h2 class="title">Sign Up To Get Latest Update</h2>
+                                    <p>Sign up for our monthly newsletter for the latest news &amp; articles</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div id="mc_embed_signup" class="subscribe-form-2">
+                                    <form id="mc-embedded-subscribe-form" class="validate subscribe-form-style-2" novalidate="" name="mc-embedded-subscribe-form" method="post" action="#">
+                                        <div id="mc_embed_signup_scroll" class="mc-form-2">
+                                            <input class="email" type="email" required="" placeholder="Enter Your Email" name="EMAIL" value="">
+                                            <div class="mc-news-2" aria-hidden="true">
+                                                <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef">
+                                            </div>
+                                            <div class="clear-2">
+                                                <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Subscribe">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- trending area end -->
-    <div class="trending-area bg-sky  pd-top-60 pd-bottom-30">
-        <div class="container">
-            <div class="section-title">
-                <h6 class="title">TRENDING NEWS</h6>
-            </div>
-            <div class="trending-slider nav-style-base nav-right-top owl-carousel">
-                <div class="item">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/11.png" alt="img">
-                            <div class="post-meta-single">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo.png" alt="">
+                                </a>          
                             </div>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-blue" href="cat-tech.html">Tech</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Best Tech Global caseload tops 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/12.png" alt="img">
-                            <div class="post-meta-single">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-purple" href="cat-fashion.html">FASHION</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Fashion Magpie-11 caseload tops 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/13.png" alt="img">
-                            <div class="post-meta-single">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-red" href="cat-fashion.html">MUSIC</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Global Covid-19 caseload tops 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- trending area end -->
-
-    <!-- trending area end -->
-    <div class="trending-area pd-top-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="section-title">
-                        <h6 class="title">ENTERTAINMENT</h6>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/post/14.png" alt="img">
-                                </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-red" href="cat-fashion.html">MUSIC</a></li>
-                                        </ul>
-                                    </div>
-                                    <h5 class="title mb-2"><a href="blog-details.html">Global Music Covid-19 tops caseload</a></h5>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
+                            <p>Genesis design consultancy firm that brings sensitivity to the design top restaurants, hotels, offices &amp; homes around the world, the prestigious luxury is. We do all types of interior designing.</p>
+                        </div>   
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="footer-widget">
+                                <h3 class="footer-title">Quick Links</h3>
+                                <div class="footer-info-list">
+                                    <ul>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">About Us</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Latest News</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Portfolio</a></li>
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Planning</a></li>           
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Privacy Policy</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Services</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Testimonial</a></li>                
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Our Team</a></li>           
+                                        <li><i class="fa fa-plus" aria-hidden="true"></i><a href="#">Designing</a></li>  
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="single-post-wrap style-overlay">
-                                <div class="thumb">
-                                    <img src="assets/img/post/15.png" alt="img">
-                                    <div class="post-meta-single">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
+                        </div>              
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 widget-area">
+                            <div class="footer-widget">
+                                <h3 class="footer-title">Contact</h3>
+                                <div class="Phone">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/call.png" alt="">
+                                        </a>          
                                     </div>
+                                    <div class="title-box">
+                                        <h5 class="title">Phone Number</h5>
+                                        <p>+123 456 7890</p>
+                                    </div>	
                                 </div>
-                                <div class="details">
-                                    <div class="post-meta-single mb-3">
-                                        <ul>
-                                            <li><a class="tag-base tag-red" href="cat-fashion.html">MUSIC</a></li>
-                                        </ul>
+                                <div class="Email">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/email.png" alt="">
+                                        </a>          
                                     </div>
-                                    <h5 class="title"><a href="blog-details.html">Global Likes caseload tops 132.2m</a></h5>
+                                    <div class="title-box">
+                                        <h5 class="title">Email Address</h5>
+                                        <p>info@example.com</p>
+                                    </div>	
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="section-title">
-                        <h6 class="title">SOCIAL CONNECTS</h6>
-                    </div>
-                    <div class="social-area-list mb-4">
-                        <ul>
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook social-icon"></i><strong>15000</strong><span>Likes</span></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter social-icon"></i><strong>25000</strong><span>Likes</span></a></li>
-                            <li><a class="instagram" href="#"><i class="fa fa-instagram social-icon"></i><strong>5K+</strong><span>Followers</span></a></li>
-                            <li><a class="youtube" href="#"><i class="fa fa-youtube-play social-icon"></i><strong>2.5M+</strong><span>Subscribers</span></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin social-icon"></i><strong>12000</strong><span>Followers</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- trending area end -->
-
-    <!-- video area end -->
-    <div class="video-area pd-bottom-30">
-        <div class="container">
-            <div class="single-post-wrap style-overlay">
-                <div class="thumb">
-                    <img src="assets/img/post/16.png" alt="img">
-                    <div class="post-meta-single">
-                        <ul>
-                            <li><i class="fa fa-user"></i>Magpie</li>
-                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="details w-100">
-                    <div class="row">
-                        <div class="col-md-6 align-self-end mb-md-3">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-red" href="cat-fashion.html">MUSIC</a></li>
-                                </ul>
-                            </div>
-                            <h3 class="title mb-md-3"><a href="blog-details.html">The Music to moving this ancient sphinx screening</a></h3>
-                            <a class="btn btn-white video-play-btn d-md-inline-block d-none" href="#" data-effect="mfp-zoom-in"><i class="fa fa-play-circle"></i>Play Video</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- video area end -->
-
-    <!-- post area end -->
-    <div class="post-area pd-bottom-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">TECH NEWS</h6>
-                    </div>
-                    <div class="single-post-wrap border-bottom pb-3">
-                        <div class="thumb">
-                            <img src="assets/img/post/17.png" alt="img">
-                            <a class="tag-base tag-blue" href="cat-tech.html">Tech</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">Best Tech tops caseload nation of 132.2m</a></h5>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/20.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Tech Ratcl to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
+                                <div class="Location">
+                                    <div class="img">
+                                        <a href="index.html">
+                                            <img src="assets/images/footer/location.png" alt="">
+                                        </a>          
                                     </div>
+                                    <div class="title-box">
+                                        <h5 class="title">Location</h5>
+                                        <p>16/B, Miranda City, NYC</p>
+                                    </div>	
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/21.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
+                        </div>              
+                    </div>                
+                </div>                         
+                <div class="footer-bottom-area">
+                    <div class="row align-items-center">  
+                        <div class="container">
+                            <div class="footer-bottom-home footer-bottom-pb footer-bottom-pt w-100">                          
+                                <div class="row align-items-center">
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <p>Copyright © 2025 All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <ul class="ekit-team-social-list">
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div>                           
                             </div>
                         </div>
                     </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/22.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Director Ratcliffe to be of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
+                </div>
+            </footer> 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class=" ti-close " aria-hidden="true"></span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row no-gutters">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="quickview-slider-active owl-carousel">
+                                        <a class="img-popup" href="assets/images/product/quickview-1.jpg"><img src="assets/images/product/quickview-1.jpg" alt=""></a>
+                                        <a class="img-popup" href="assets/images/product/quickview-2.jpg"><img src="assets/images/product/quickview-2.jpg" alt=""></a>
                                     </div>
+                                    <!-- Thumbnail Large Image End -->
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">INTERNATIONAL NEWS</h6>
-                    </div>
-                    <div class="single-post-wrap border-bottom pb-3">
-                        <div class="thumb">
-                            <img src="assets/img/post/18.png" alt="img">
-                            <a class="tag-base tag-red" href="cat-fashion.html">Tech</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">International News caseload nation of 132.2m</a></h5>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/23.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Director Ratcliffe to be of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/24.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/25.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">BUSINESS NEWS</h6>
-                    </div>
-                    <div class="single-post-wrap border-bottom pb-3">
-                        <div class="thumb">
-                            <img src="assets/img/post/19.png" alt="img">
-                            <a class="tag-base tag-green" href="cat-fashion.html">Tech</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">Business tops caseload nation of Magpie</a></h5>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/26.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/27.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-bg">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/24.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <h6 class="title mb-1"><a href="blog-details.html">Ratcliffe to be Director of nation talent</a></h6>
-                                    <div class="post-meta-single mb-0">
-                                        <ul>
-                                            <li><i class="fa fa-user"></i>Magpie</li>
-                                            <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- post area end -->
-
-    <!-- add area start -->
-    <div class="add-area bg-sky pd-top-60 pd-bottom-60">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="thumb">
-                        <img src="assets/img/add/2.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- add area end -->
-
-    <!-- sports area end -->
-    <div class="sports-area pd-top-60 pd-bottom-30">
-        <div class="container">
-            <div class="section-title">
-                <h6 class="title">SPORTS NEWS</h6>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="single-post-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/post/28.png" alt="img">
-                            <a class="tag-base tag-blue" href="cat-fashion.html">SPORTS</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">The Sports in to moving this ancient sphinx screening</a></h3>
-                            <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-post-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/post/29.png" alt="img">
-                            <a class="tag-base tag-blue" href="cat-fashion.html">SPORTS</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">The secret to moving this ancient sphinx screening</a></h3>
-                            <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/30.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-blue" href="cat-fashion.html">SPORTS</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">Cricket tops caseload 132.2m</a></h5>
-                            <div class="post-meta-single mb-0">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/31.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-blue" href="cat-fashion.html">SPORTS</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">Football tops game Magpie</a></h5>
-                            <div class="post-meta-single mb-0">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post-wrap style-overlay">
-                        <div class="thumb">
-                            <img src="assets/img/post/32.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-3">
-                                <ul>
-                                    <li><a class="tag-base tag-blue" href="cat-fashion.html">SPORTS</a></li>
-                                </ul>
-                            </div>
-                            <h5 class="title mb-2"><a href="blog-details.html">Global Sports tops Magpie</a></h5>
-                            <div class="post-meta-single mb-0">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- sports area end -->
-
-    <!-- health area end -->
-    <div class="health-area bg-sky pd-top-60 pd-bottom-30">
-        <div class="container">
-            <div class="section-title">
-                <h6 class="title">HEALTH & FITNESS</h6>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="single-post-wrap">
-                        <div class="thumb">
-                            <img src="assets/img/post/33.png" alt="img">
-                            <a class="tag-base tag-red" href="cat-fashion.html">HEALTH</a>
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">The secret to moving this sphinx</a></h3>
-                            <p>The overall global Covid-19 caseload has topped 132.2 million, while the has topped 132.2 million, while the deaths have surged</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="single-post-list-wrap style-two">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/8.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <div class="details">
-                                        <a class="cat-text cat-red" href="#">HEALTH</a>
-                                        <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                        <p class="mb-2">The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="product-details-content quickview-content-padding bg-gray">
+                                        <h2 class="uppercase">JAW SHARK WOMEN T-SHIRT</h2>
+                                        <h3>$19.99</h3>
+                                        <div class="product-details-peragraph">
+                                            <p>Sed ligula sapien, fermentum id est eget, viverra auctor sem. Vivamus maximus enim vitae urna porta, ut euismod nibh lacinia. Pellentesque at diam sed libero tincidunt feugiat.</p>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-two">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/34.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <div class="details">
-                                        <a class="cat-text cat-green" href="#">FITNESS</a>
-                                        <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                        <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                        <div class="product-details-action-wrap">
+                                            <div class="product-details-quality">
+                                                <div class="cart-plus-minus">
+                                                    <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
+                                                </div>
+                                            </div>
+                                            <div class="product-details-cart">
+                                                <a title="Add to cart" href="#">Add to cart</a>
+                                            </div>
+                                            <div class="product-details-wishlist">
+                                                <a title="Add to wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                            </div>
+                                            <div class="product-details-compare">
+                                                <a title="Add to compare" href="#"><i class="fa fa-compress"></i></a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-post-list-wrap style-two">
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="assets/img/post/35.png" alt="img">
-                            </div>
-                            <div class="media-body align-self-center">
-                                <div class="details">
-                                    <div class="details">
-                                        <a class="cat-text cat-red" href="#">FASHION</a>
-                                        <h5><a href="blog-details.html">Global Covid-19 tops 132.2m</a></h5>
-                                        <p>The overall global Covid-19 caseload has topped 132.2 million, while the deaths have surged</p>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                        <div class="product-details-meta">
+                                            <span>SKU: N/A</span>
+                                            <span>Categories: <a href="#">Woman</a>, <a href="#">Dress</a>, <a href="#">Style</a>, <a href="#">T-Shirt</a>, <a href="#">Mango</a></span>
+                                            <span>Tag: <a href="#">Fashion</a>, <a href="#">Dress</a> </span>
+                                            <span>Product ID: <a href="#">274</a></span>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- health area end -->
-
-    <!-- life-style area end -->
-    <div class="life-style-area pd-top-60 pd-bottom-30">
-        <div class="container">
-            <div class="section-title pl-3 pl-lg-0">
-                <h6 class="title">LIFE STYLE</h6>
-            </div>
-            <div class="row no-gutters no-gutters-md">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-post-wrap style-overlay-visible">
-                        <div class="thumb">
-                            <img src="assets/img/post/36.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Global Covid-19 tops caseload 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-post-wrap style-overlay-visible">
-                        <div class="thumb">
-                            <img src="assets/img/post/37.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Global Covid-19 tops caseload 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-post-wrap style-overlay-visible">
-                        <div class="thumb">
-                            <img src="assets/img/post/38.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Global Covid-19 tops caseload 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-post-wrap style-overlay-visible">
-                        <div class="thumb">
-                            <img src="assets/img/post/39.png" alt="img">
-                        </div>
-                        <div class="details">
-                            <div class="post-meta-single mb-1">
-                                <ul>
-                                    <li><i class="fa fa-user"></i>Magpie</li>
-                                    <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                </ul>
-                            </div>
-                            <h5 class="title"><a href="blog-details.html">Global Covid-19 tops caseload 132.2m</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- life-style area end -->
-
-    <!-- footer area start -->
-    <div class="footer-area bg-black pd-top-60">
-        <div class="container">
-            <div class="footer-top">
-                <div class="subscribe-wrap">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4 align-self-center">
-                            <h4>SUBSCRIBE FOR NEWSLETTER</h4>
-                        </div>
-                        <div class="col-xl-9 col-lg-8 align-self-center mt-3 mt-lg-0">
-                            <div class="subscribe-inner">
-                                <input type="text" placeholder="Enter email address">
-                                <button class="btn btn-base-m">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="widget">
-                        <div class="widget_about">
-                            <a class="logo" href="index.html"><img src="assets/img/logo-2.png" alt="img"></a>
-                            <p>Magpie matrix economically sound value through cooperative technology task fully researched data and enterprise process improvements quality  products via client-focused results.</p>
-                            <ul class="social-area social-area-2 mt-4">
-                                <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="youtube-icon" href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                <li><a class="instagram-icon" href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a class="google-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Useful Link</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="cat-tech.html">Tech</a></li>
-                            <li><a href="blog-details.html">Blog Single</a></li>
-                            <li><a href="cat-fashion.html">Fashion</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="widget widget_nav_menu">
-                        <h4 class="widget-title">Category</h4>
-                        <ul>
-                            <li><a href="cat-tech.html">Tech</a></li>
-                            <li><a href="cat-fashion.html">Fashion</a></li>
-                            <li><a href="cat-lifestyle.html">Lifestyle</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="author.html">Author</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="widget widget_recent_post">
-                        <h5 class="widget-title">POPULAR NEWS</h5>
-                        <div class="single-post-list-wrap style-white">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/other/1.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <a class="cat-text cat-green" href="#">HEALTH</a>
-                                        <h6><a href="blog-details.html">Ratcliffe to be of nation talent</a></h6>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                        <div class="product-details-info">
+                                            <a href="#"><i class=" ti-location-pin "></i>Check Store availability</a>
+                                            <a href="#"><i class=" ti-shopping-cart "></i>Delivery and Return</a>
+                                            <a href="#"><i class="ti-pin"></i>Ask a Question</a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-post-list-wrap style-white">
-                            <div class="media">
-                                <div class="media-left">
-                                    <img src="assets/img/other/1.png" alt="img">
-                                </div>
-                                <div class="media-body align-self-center">
-                                    <div class="details">
-                                        <a class="cat-text cat-green" href="#">HEALTH</a>
-                                        <h6><a href="blog-details.html">Ratcliffe to be of nation talent</a></h6>
-                                        <div class="post-meta-single">
-                                            <ul>
-                                                <li><i class="fa fa-user"></i>Magpie</li>
-                                                <li><i class="fa fa-clock-o"></i> April 7, 2021</li>
-                                            </ul>
+                                        <div class="product-details-social-wrap">
+                                            <span>SHARE THIS PRODUCT</span>
+                                            <div class="product-details-social">
+                                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                                <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+                                                <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1721,22 +1015,43 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal end -->
         </div>
-        <div class="footer-bottom text-center">
-            <p>2025 © All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板">网站模板</a></p>
-        </div>
-    </div>
-    <!-- footer area end -->
 
-    <!-- back to top area start -->
-    <div class="back-to-top">
-        <span class="back-top"><i class="fa fa-angle-up"></i></span>
-    </div>
-    <!-- back to top area end -->
+        <!-- All JS is here
+    ============================================ -->
 
-    <!-- all plugins here -->
-    <script src="assets/js/vendor.js"></script>
-    <!-- main js  -->
-    <script src="assets/js/main.js"></script>
-</body>
+        <!-- Modernizer JS -->
+        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+        <!-- jquery -->
+        <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/vendor/popper.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-notify.min.js"></script>
+        <script src="assets/js/plugins/owl-carousel.js"></script>
+        <script src="assets/js/plugins/slick.js"></script>
+        <script src="assets/js/plugins/jquery.mb.ytplayer.min.js"></script>
+        <script src="assets/js/plugins/magnific-popup.js"></script>
+        <script src="assets/js/plugins/wow.js"></script>
+        <script src="assets/js/plugins/instafeed.js"></script>
+        <script src="assets/js/plugins/countdown.js"></script>
+        <script src="assets/js/plugins/jarallax.min.js"></script>
+        <script src="assets/js/plugins/images-loaded.js"></script>
+        <script src="assets/js/plugins/isotope.js"></script>
+        <script src="assets/js/plugins/tilt.js"></script>
+        <script src="assets/js/plugins/jquery-ui.js"></script>
+        <script src="assets/js/plugins/jquery-ui-touch-punch.js"></script>
+        <script src="assets/js/plugins/easyzoom.js"></script>
+        <script src="assets/js/plugins/resizesensor.js"></script>
+        <script src="assets/js/plugins/sticky-sidebar.js"></script>
+        <script src="assets/js/plugins/scrollup.js"></script>
+        <script src="assets/js/plugins/ajax-mail.js"></script>
+        <script src="assets/js/plugins/skrollr.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
 </html>
